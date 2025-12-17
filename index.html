@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Портфолио студента IT</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Навигация -->
+    <nav class="navbar">
+        <div class="container">
+            <a href="#" class="logo">IT Student</a>
+            <ul class="nav-links">
+                <li><a href="#about">Обо мне</a></li>
+                <li><a href="#skills">Навыки</a></li>
+                <li><a href="#projects">Проекты</a></li>
+                <li><a href="#contact">Контакты</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Главный экран -->
+    <header class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1 class="typed-text">Привет, я <span class="highlight">студент IT</span></h1>
+                    <p class="subtitle">3 курс МТК "Росбиотех", специальность "Информационные системы и программирование"</p>
+                    <p>Создаю современные и функциональные веб-приложения</p>
+                    <a href="#projects" class="btn">Мои работы</a>
+                </div>
+                <div class="hero-image">
+                    <div class="avatar-frame">
+                        <img src="images/profile.jpg" alt="Мое фото" id="profile-img">
+                        <div class="status-indicator"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Обо мне -->
+    <section id="about" class="section">
+        <div class="container">
+            <h2 class="section-title">Обо мне</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>Я студентка 3 курса, обучаюсь по специальности "Информационные системы и программирование". В процессе обучения освоила основы веб-разработки, базы данных и алгоритмы программирования.</p>
+                    <p>В свободное время изучаю современные технологии и frameworks, работаю над pet-проектами и участвую в хакатонах.</p>
+                    <div class="info-grid">
+                        <div class="info-item">
+                            <i class="fas fa-graduation-cap"></i>
+                            <div>
+                                <h4>Образование</h4>
+                                <p>Колледж</p>
+                                <p>3 курс, СПО</p>
+                            </div>
+                        </div>
+                        <div class="info-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div>
+                                <h4>Местоположение</h4>
+                                <p>Ваш город</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Навыки -->
+    <section id="skills" class="section bg-light">
+        <div class="container">
+            <h2 class="section-title">Технические навыки</h2>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fab fa-html5"></i>
+                    </div>
+                    <h3>Frontend</h3>
+                    <p>HTML5, CSS3, JavaScript</p>
+                    <div class="skill-level">
+                        <div class="level-bar" style="width: 85%"></div>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fas fa-database"></i>
+                    </div>
+                    <h3>Базы данных</h3>
+                    <p>SQL, MySQL, PostgreSQL</p>
+                    <div class="skill-level">
+                        <div class="level-bar" style="width: 75%"></div>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <h3>Программирование</h3>
+                    <p>C++, Python, Java</p>
+                    <div class="skill-level">
+                        <div class="level-bar" style="width: 80%"></div>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fas fa-tools"></i>
+                    </div>
+                    <h3>Инструменты</h3>
+                    <p>Git, VS Code, Figma</p>
+                    <div class="skill-level">
+                        <div class="level-bar" style="width: 70%"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Проекты -->
+    <section id="projects" class="section">
+        <div class="container">
+            <h2 class="section-title">Мои проекты</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image" style="background-color: #4a6fa5;">
+                        <i class="fas fa-laptop-code fa-3x"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3>Учебный проект</h3>
+                        <p>Веб-сайт для учебного заведения с административной панелью</p>
+                        <div class="project-tech">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JavaScript</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image" style="background-color: #6d597a;">
+                        <i class="fas fa-shopping-cart fa-3x"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3>Интернет-магазин</h3>
+                        <p>Прототип интернет-магазина с корзиной покупок</p>
+                        <div class="project-tech">
+                            <span>Python</span>
+                            <span>Flask</span>
+                            <span>SQLite</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image" style="background-color: #3a7ca5;">
+                        <i class="fas fa-mobile-alt fa-3x"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3>Мобильное приложение</h3>
+                        <p>Кросс-платформенное приложение для заметок</p>
+                        <div class="project-tech">
+                            <span>React Native</span>
+                            <span>Firebase</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Контакты -->
+    <section id="contact" class="section bg-light">
+        <div class="container">
+            <h2 class="section-title">Контакты</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h4>Email</h4>
+                            <p>student.email@example.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fab fa-github"></i>
+                        <div>
+                            <h4>GitHub</h4>
+                            <p>github.com/yourusername</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fab fa-vk"></i>
+                        <div>
+                            <h4>ВКонтакте</h4>
+                            <p>vk.com/yourprofile</p>
+                        </div>
+                    </div>
+                </div>
+                <form class="contact-form" id="contact-form">
+                    <h3>Написать мне</h3>
+                    <div class="form-group">
+                        <input type="text" placeholder="Ваше имя" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" placeholder="Ваш email" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea placeholder="Ваше сообщение" rows="4" required></textarea>
+                    </div>
+                    <button type="submit" class="btn">Отправить сообщение</button>
+                    <p id="form-message"></p>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Футер -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2023 Портфолио студента IT. Все права защищены.</p>
+            <p>Создано для зачета по предмету</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
